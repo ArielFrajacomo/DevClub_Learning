@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mario - DevClub Learning</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Mario Web Coding</h1>
+    </header>
+    <main>
+        <!-- Body content goes here -->
+    </main>
+</body>
+</html>
