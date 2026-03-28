@@ -1,6 +1,7 @@
 # DevClub_Learning
- DevClub Platform Exercises
- The lessons are translated on the go, while in the middle of the class, if there's any gramatical error just tell me.
+ DevClub Platform Exercises.
+ 
+ The lessons are translated from `Portuguese` to `English` on the go, if there's any grammatical error just tell me.  
  This page will be reviewed after I finish all the lessons of the DevClub Course.
 
 ## HTML
