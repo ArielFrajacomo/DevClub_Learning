@@ -7,7 +7,10 @@
 ## HTML
 ### 01-HTML_Basics
 Basics of HTML, reviewing if there's something new in the HTML markup
-> "Seems that there's nothing new here, really" - Ariel.
+> Seems that there's nothing new here, really.
 ### 02-HTML_Challenge01
 Devclub's 1st challenge, A simple page with some data about myself
-> "probably will be changed in the future to make a Self Presentation page" - Ariel.
+> probably will be changed in the future to make a Self Presentation page.
+### 03-HTML_Basics_part2
+Table, Self-Hosted videos, Iframe, Input
+> The input had something new, the `<label for="id">` is easier to read, and now it have new acessibility features and a convenient autocomplete tool.
