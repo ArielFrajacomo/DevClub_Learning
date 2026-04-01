@@ -29,3 +29,7 @@ Forms, inputs and buttons
 
 HTML Semantics  
 > `<article>` and `<aside>` didn't exist before.  
+
+## CSS 
+### Basics
+In Progression...
