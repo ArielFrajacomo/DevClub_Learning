@@ -34,7 +34,11 @@ This lesson will cover the basics of CSS and how to use it to style web pages.
 *Linked the style.css to HTML Lessons*  
 ### 01-CSS_Intro
 CSS can be used for TAGS(`<p>`) -> `p`, Class(`<element class="btn">`) -> `.btn`, ID(`<element id="itemID">`) -> `#itemID`
-> the use of `:is(ul, ol) li` is interesting, and it seems that it doesn't affect much the performance of the website.  
+> the use of `:is(ul, ol) li` is interesting, and it seems that it doesn't affect much the performance of the website.
+
 Colors, ...
 
+.  
+.  
+.  
 In Progression...
