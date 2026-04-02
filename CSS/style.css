@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
 :root {
     --color-bg: #f5f5f5;
     --color-surface: #ffffff;
@@ -9,18 +11,52 @@
     --color-border: #c6d4e3;
 }
 
+* {
+    /* Apply box-sizing to all elements */
+    box-sizing: border-box;
+    /* border-box ensures padding and border are included in the element's total width and height */
+}
+
+html {
+    background-color: var(--color-bg);
+    background-image: url("../img/logo-devclub.png");
+    background-repeat: no-repeat;
+    background-position: left 24px top 24px;
+    background-size: 200px;
+    background-attachment: fixed;
+}
+@media (max-width: 1150px) {
+    html {
+        background-position: center;
+        background-size: min(100vw, 700px);
+
+        background-image:
+            linear-gradient(
+                color-mix(in srgb, var(--color-bg) 94%, transparent),
+                color-mix(in srgb, var(--color-bg) 94%, transparent)
+            ),
+            url("../img/logo-devclub.png");
+    }
+}
+
 body {
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     max-width: 700px;
     margin: 40px auto;
     padding: 0 20px;
-    background: var(--color-bg);
+    background: transparent;
     color: var(--color-text);
 }
 h1 {
     color: var(--color-primary);
     border-bottom: 2px solid var(--color-primary-accent);
     padding-bottom: 10px;
+    text-shadow: 5px 5px 10px color-mix(in srgb, var(--color-primary) 40%, var(--color-primary-accent) 40%);
+}
+h2 {
+    color: var(--color-primary);
+    margin-top: 32px;
+    text-shadow: 3px 5px 5px color-mix(in srgb, var(--color-primary) 30%, var(--color-primary-accent) 30%);
 }
 label {
     font-weight: bold;
@@ -31,7 +67,7 @@ span {
     color: var(--color-accent) !important;
     font-weight: bold;
 }
-pre {
+pre, .card {
     background: var(--color-surface);
     padding: 12px;
     border-radius: 6px;

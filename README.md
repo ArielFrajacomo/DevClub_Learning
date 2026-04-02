@@ -49,7 +49,11 @@ This lesson will cover the basics of CSS and how to use it to style web pages.
 Using CSS: TAGS(`<p>`)->`p`, Class(`<element class="btn">`)->`.btn`, ID(`<element id="itemID">`)->`#itemID`
 > The use of `:is(ul, ol) li` is interesting, and it seems that it doesn't affect much the performance of the website.
 
-Colors, Units of measure, Text
+Colors, Units of measure, Text, Margin and Padding, box-sizing, 
 > The dev in me wanted to see how Variables in CSS works, I love how `:root` lets you set global variables, it makes much easyer and cleaner than working with RGB/hex codes.
+### 02-Standalone Project 01 - We Care Pet Frontpage
+Using figma to replicate a front page in HTML with CSS (non-responsive)
+> Project path: `Standalone_projects\Project01-Pet\Index.html`
+### 03-Standalone Project 02 - Challenge 2
 
 
