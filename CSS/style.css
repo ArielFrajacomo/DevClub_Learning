@@ -163,3 +163,52 @@ iframe {
     border-radius: 6px;
 }
 
+/* projects showcase */
+.projects-showcase {
+    margin-top: 32px;
+}
+
+.project-item {
+    margin-top: 24px;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: 320px 320px;
+    gap: 24px;
+    align-items: start;
+}
+
+.project-figma img,
+.project-live-preview {
+    width: 320px;
+    height: 200px;
+    border: 2px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-surface);
+}
+
+.project-figma img {
+    display: block;
+    object-fit: contain;
+}
+
+.project-live-preview {
+    overflow: hidden;
+}
+
+.project-live-preview iframe {
+    width: 1440px;
+    height: 900px;
+    border: none;
+    margin-top: 0;
+    transform: scale(0.2222);
+    transform-origin: top left;
+}
+
+@media (max-width: 720px) {
+    .project-content {
+        grid-template-columns: 320px;
+    }
+}
+
