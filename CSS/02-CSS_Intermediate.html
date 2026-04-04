@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVCLUB Full Stack - CSS Intro</title>
+    <title>DEVCLUB Full Stack - CSS Intermediate</title>
 
     <link rel="stylesheet" href="./style.css"> <!-- Link to external CSS file -->
 
@@ -11,7 +11,68 @@
 <body>
     <h1>Dev Club Class</h1>
     <h2>Lesson 009 - !important Tag</h2>
+    <!-- #region Lesson 009 - !important Tag -->
+        <p>The <code>!important</code> rule in CSS is used to give a CSS property higher priority than other rules. 
+           It overrides any other declarations, even if they have higher specificity.</p>
+        <p>Example:</p>
+        <pre>        p {
+            color: blue !important;
+        }   </pre>
+        <p>In this example, the paragraph text will always be blue, regardless of other CSS rules.</p>
+    <!-- #endregion Lesson 009 - !important Tag -->
+    <h2>Lesson 010 - Position</h2>
+    <!-- #region Lesson 010 - Position -->
+        <p>CSS positioning allows you to control the layout of elements on a webpage. 
+           The main position values are:</p>
+        <ul>
+            <li><strong>static:</strong>    .</li>
+            <li><strong>relative:</strong> The element is positioned relative to its normal position, 
+                                allowing you to move it using top, right, bottom, and left properties.</li>
+                <li><strong>absolute:</strong> The element is positioned relative to its nearest positioned ancestor <span>(not static)</span>, 
+                                    or the initial containing block if no such ancestor exists.</li>
+            <li><strong>fixed:</strong> The element is positioned relative to the viewport, it stays in the same place 
+                                even when the page is scrolled.</li>
+            <li><strong>sticky:</strong> The element toggles between relative and fixed, depending on the scroll position. 
+                                It behaves like <code>relative</code> until it reaches a specified scroll position, then it becomes <code>fixed</code>.</li>
+        </ul>
+    <!-- #endregion Lesson 010 - Position -->
+    <h2>Lesson 011 - Pseudo-classes and Pseudo-elements</h2>
+    <!-- #region Lesson 011 - Pseudo-classes and Pseudo-elements -->
+     <p><strong>Pseudo-elements:</strong> are used to style specific parts of an element. 
+           They are prefixed with two colons (::). Example: <code>::before</code>, <code>::after</code>.</p>
+        <ul>
+            <li><code>::before</code> - Inserts content before the content of an element.</li>
+            <li><code>::after</code> - Inserts content after the content of an element.</li>
+            <li><code>::first-letter</code> - Styles the first letter of an element.</li>
+            <li><code>::first-line</code> - Styles the first line of an element.</li>
+            <li><code>::selection</code> - Styles the portion of an element that is selected by the user.</li>
+        </ul>
+        <p><strong>Pseudo-classes:</strong> are used to define a special state of an element. 
+           They are prefixed with a colon (:).</p>
+        <ul>
+            <li><code>:active</code> - Applies when an element is being activated (e.g., clicked).</li>
+            <li><code>:visited</code> - Applies to links that have been visited by the user.</li>
+            <li><code>:hover</code> - Applies when the user hovers over an element.</li>
+            <li><code>:checked</code> - Applies to radio buttons or checkboxes that are checked.</li>
+            <li><code>:disabled</code> - Applies to elements that are disabled.</li>
+            <li><code>:enabled</code> - Applies to elements that are enabled.</li>
+            <li><code>:focus</code> - Applies when an element has focus (e.g., when a user clicks on an input field or navigates to it using the keyboard).</li>
+            <li><code>:read-only</code> - Applies to elements that are read-only.</li>
+            <li><code>:empty</code> - Applies to elements that have no children (including text nodes).</li>
+            <br>
+            <li><code>:not(selector)</code> - Applies to elements that do not match the specified selector.</li>
+            <br>
+            <li><code>:first-child</code> - Applies to the first child of a parent element.</li>
+            <li><code>:first-of-type</code> - Applies to the first element of its type among a group of sibling elements.</li>
+            <li><code>:last-child</code> - Applies to the last child of a parent element.</li>
+            <li><code>:last-of-type</code> - Applies to the last element of its type among a group of sibling elements.</li>
+            <li><code>:nth-child()</code> - Applies to elements based on their position in a parent element.</li>
+            <li><code>:nth-of-type()</code> - Applies to elements based on their type and position in a parent element.</li>
+            <li><span>Note:</span> The <code>:nth-child()</code> and <code>:nth-of-type()</code> pseudo-classes accept a formula as an argument, such as <code>2n</code> (for even elements) or <code>2n+1</code> (for odd elements).</li>
+        </ul>
+    <!-- #endregion Lesson 011 - Pseudo-classes and Pseudo-elements -->
+
     
-    
+        <br><br><br><br>
 </body>
 </html>

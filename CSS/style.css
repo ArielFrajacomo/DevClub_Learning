@@ -67,12 +67,21 @@ span {
     color: var(--color-accent) !important;
     font-weight: bold;
 }
+code {
+    background: var(--color-surface);
+    padding: 2px 6px;
+    border-radius: 4px;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+}
 pre, .card {
     background: var(--color-surface);
     padding: 12px;
     border-radius: 6px;
     border: 1px solid var(--color-border);
     overflow-x: auto;
+    color: var(--color-primary);
+    
 }
 ul, ol {
     padding: 0;
