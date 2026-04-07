@@ -111,6 +111,16 @@ iframe {
 
 }
 
+blockquote {
+    border-left: 3px solid var(--color-primary-accent);
+    border-radius: 0 4px 4px 0;
+    margin: 8px 0 8px 0;
+    padding: 8px 16px;
+    background: var(--color-surface);
+    color: var(--color-text);
+    
+}
+
 /* viewport units demo */
 .no-bullets {
     list-style-type: none;

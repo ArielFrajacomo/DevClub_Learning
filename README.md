@@ -59,4 +59,5 @@ Final Challenge of the CSS_Intro course, and as a bonus, i tried to edit the Log
 >  Project path: `Standalone_projects\Project02-Challenge02\index.html`
 
 ## CSS Intermediate Level (In Progression...)
-!important tag, 
+!important tag, Pseudo-classes and Pseudo-elements, Site responsiveness
+> Challenge `Standalone_projects/Project03-1st_Responsible_site/index.html`

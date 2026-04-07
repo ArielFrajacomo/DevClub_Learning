@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+    /* mobile/tablet styles */
+    .right-box {
+        width: 40%; 
+    }
+    .left-box {
+        width: 60%; 
+    }
+    .logo {
+        margin-left: -10vw;
+    }
+
+    nav {
+        font-size: 1.2rem;
+    }
+
+}
+
