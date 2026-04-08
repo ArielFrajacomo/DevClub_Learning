@@ -14,7 +14,7 @@ html {
 
 :root {
     --color-bg: #ffffff;
-    --color-bg-dark: #e5e5ea;
+    --color-bg-dark: rgba(93, 93, 125, 0.16);
     --color-text: #9e9eb1;
     --color-text-accent: #5D5D7D;
     --color-text-light: #f5f8fc;
@@ -85,8 +85,6 @@ html {
     margin-left: -9vw;
 }
 
-
-
 /* Visuals */
 nav {
     padding: 1rem;
@@ -123,10 +121,12 @@ nav a:active {
 
 
 .hero-title {
-    font-size: 5rem;
+    font-size: 70px;
     color: var(--color-text-accent);
-    line-height: 1.2;
+    line-height: 80px;
     max-width: 90%;
+
+    margin-top: 18vh;
 }
 
 .hero-text {

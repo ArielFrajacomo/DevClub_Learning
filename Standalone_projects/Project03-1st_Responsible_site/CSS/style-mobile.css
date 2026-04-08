@@ -29,8 +29,10 @@
     }
 
     .hero-title {
-        font-size: 4rem;
-        line-height: 1.1;
+        font-size: 3rem;
+        line-height: 80px;
+        
+        margin-top: 0;
     }
 
     .hero-text {
