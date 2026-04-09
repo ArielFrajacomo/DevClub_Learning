@@ -10,7 +10,7 @@
 - [HTML](#html)
 - [CSS Basics](#css) / [CSS Intermediate](#css-intermediate-level)
 - [GIT](#git)
-- [JavaScript (In Progression...)](#javascript-in-progression)
+- [JavaScript](#javascript)
 
 <a id="prerequisites"></a>
 ## Prerequisites
@@ -91,6 +91,6 @@ Push and Pull, Branching and Merging
 Remote Repositories, README.md
 > You are here! xD
 
-<a id="javascript-in-progression"></a>
-## JavaScript (In Progression...)
+<a id="javascript"></a>
+## JavaScript (On Going...)
 

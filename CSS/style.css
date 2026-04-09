@@ -19,7 +19,7 @@
 
 html {
     background-color: var(--color-bg);
-    background-image: url("../img/logo-devclub.png");
+    background-image: url("../_assets/logo-devclub.png");
     background-repeat: no-repeat;
     background-position: left 24px top 24px;
     background-size: 200px;
@@ -35,7 +35,7 @@ html {
                 color-mix(in srgb, var(--color-bg) 94%, transparent),
                 color-mix(in srgb, var(--color-bg) 94%, transparent)
             ),
-            url("../img/logo-devclub.png");
+            url("../_assets/logo-devclub.png");
     }
 }
 
@@ -176,12 +176,23 @@ blockquote {
 .certificate {
     margin-top: 32px;
 }
+.certificate-link {
+    display: block;
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+}
+
+.certificate-link:hover {
+    background: transparent;
+}
+
 .certificate img {
     width: 100%;
+    display: block;
     border: 2px solid var(--color-border);
     border-radius: 6px;
 }
-
 /* projects showcase */
 .projects-showcase {
     margin-top: 32px;
