@@ -92,5 +92,11 @@ Remote Repositories, README.md
 > You are here! xD
 
 <a id="javascript"></a>
-## JavaScript (On Going...)
+## JavaScript 
+### Variables, Strings, Template literals, Numbers, Booleans, Bitshift
+> All basic stuff, I had to put a Bitshift Extra Lesson at the end, to spicy thing up and remember my origins `(Low code + Memory Management and Performance Lover)`, It seems to be a forgetten skill lately.
+
+
+
+(On Going...)
 
