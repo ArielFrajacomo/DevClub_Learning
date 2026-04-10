@@ -1,0 +1,49 @@
+/* Encoder Program - CSS Styles */
+#encoder {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background-color: var(--color-surface);
+}
+
+.encoder-input, .encoder-output {
+    height: 5em;
+    min-height: 5em;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+.encoder-input:hover, .encoder-output:hover {
+    border-color: var(--color-text);
+}
+
+#encoder-commands {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+#encoder-commands button {
+    display: inline-flex;
+    align-items: center;
+    height: 36px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#encoder-password {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    height: 36px;
+    margin-left: auto;
+}
+#encoder-keyword {
+    width: 200px;
+    font-size: 16px;
+}

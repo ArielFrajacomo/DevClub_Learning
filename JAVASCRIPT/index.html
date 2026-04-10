@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="style-js.css">
     <script src="scripts.js" defer></script> <!-- defer makes it load after the HTML is parsed -->
     <title>DevClub - JavaScript Module</title>
 </head>
@@ -57,10 +58,19 @@
 
     <!-- #endregion Lesson 04 - Booleans -->
 
-    <h2>Lesson Extra - Bitshift</h2>
+    <h2>Lesson Extra - Binary Operations & Bitshift</h2>
     <!-- #region Lesson Extra - Bitshift -->
         <p>Bitwise operators work on 32-bit integers, performing operations at the binary level.</p>
-        <p>Bitshift operators shift the bits of a number to the left or right.</p>
+        
+        <h3>Binary Operations</h3>
+        <ul>
+            <li><code>&amp;</code> (AND): Returns 1 if both bits are 1, otherwise returns 0.</li>
+            <li><code>^</code> (XOR): Returns 1 if the bits are different, otherwise returns 0.</li>
+            <li><code>|</code> (OR): Returns 1 if at least one of the bits is 1, otherwise returns 0.</li>
+            <li><code>~</code> (NOT): Inverts the bits, turning 1s into 0s and vice versa.</li>
+        </ul>
+
+        <h3>Bitshift</h3>
         <ul>
             <li><code>&lt;&lt;</code> (Left Shift): Shifts bits to the left, filling with zeros on the right. 
                 <blockquote>Example: <code>15 &lt;&lt; 1</code> results in <code>30</code>.
@@ -79,6 +89,20 @@
             <br><span>Example:</span> <code>-5 &gt;&gt; 1 = -3</code>, <code>-5 &gt;&gt;&gt; 1 = 2147483645</code>
             <br><span>in binary:</span> <code>-5 &gt;&gt; 1 = 11111101</code>, <code>-5 &gt;&gt;&gt; 1 = 01111101</code></p>
         </p>
+
+        <h3>Encoder example:</h3>
+        <div id="encoder">
+            <p>Encode your text using a password and decode it back.</p>
+            <textarea id="encoder-decoded-string" class="encoder-input" placeholder="Enter a string to encode"></textarea>
+            <div id="encoder-commands">
+                <button id="encoder-btn-encode" onclick="encode()">Encode ↓</button> 
+                <button id="encoder-btn-decode" onclick="decode()">Decode ↑</button>
+                <label id="encoder-password">Password:
+                    <input type="text" id="encoder-keyword" placeholder="Cipher Password (optional)">
+                </label>
+            </div>
+            <textarea id="encoder-encoded-string" class="encoder-input" placeholder="Encoded string"></textarea>
+        </div>
     <!-- #endregion Lesson Extra - Bitshift -->
 
     <h2>Lesson 05 - Objects</h2>

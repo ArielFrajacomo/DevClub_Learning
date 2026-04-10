@@ -93,8 +93,8 @@ Remote Repositories, README.md
 
 <a id="javascript"></a>
 ## JavaScript 
-### Variables, Strings, Template literals, Numbers, Booleans, Bitshift
-> All basic stuff, I had to put a Bitshift Extra Lesson at the end, to spicy thing up and remember my origins `(Low code + Memory Management and Performance Lover)`, It seems to be a forgetten skill lately.
+### Variables, Strings, Template literals, Numbers, Booleans, Binary Operations & Bitshift
+> All basic stuff, I had to put a Bitshift Extra Lesson at the end, to spicy things up and remember my origins `(Low code + Memory Management and Performance Lover)`, It seems to be a forgetten skill lately.
 
 
 
