@@ -105,25 +105,90 @@
         </div>
     <!-- #endregion Lesson Extra - Bitshift -->
 
-    <h2>Lesson 05 - Objects</h2>
+        <h2>Lesson 05 - Objects</h2>
     <!-- #region Lesson 05 - Objects -->
+        <p>Objects are collections of key-value pairs, where the keys are strings and the values can be of any type.</p>
+        <p>Example of an object:</p>
+        <pre>const person = {
+    name: "Harry Potter",
+    age: 12,
+    canDrive: false,
+    hobbies: ["owls", "defense against the dark arts", "quidditch"],
+    address: {
+        street: "4 Privet Drive",
+        city: "Little Whinging",
+        country: "England",
+        obs: "The door under the stairs"
+    }
+};</pre>
     <!-- #endregion Lesson 05 - Objects -->
 
     <h2>Lesson 06 - Null and Undefined</h2>
     <!-- #region Lesson 06 - Null and Undefined -->
+        <p><code>null</code> represents the intentional absence of any object value.</p>
+        <p><code>undefined</code> represents the absence of a value or an uninitialized variable.</p>
+        <p><strong>OBS:</strong> Both <code>null</code> and <code>undefined</code> are falsy values, meaning they evaluate to false in a boolean context.</p>
     <!-- #endregion Lesson 06 - Null and Undefined -->
 
     <h2>Lesson 07 - Arrays</h2>
     <!-- #region Lesson 07 - Arrays -->
+        <p>Arrays are ordered collections of values, which can be of any type. And the first element starts at 0.</p>
+        <p>Example:</p>
+        <pre>const fruits = ["apple", "banana", "cherry"];</pre>
+
     <!-- #endregion Lesson 07 - Arrays -->
 
     <h2>Lesson 08 - If and Else</h2>
     <!-- #region Lesson 08 - If and Else -->
+        <p>Conditional statements allowing you to execute different blocks of code based on certain conditions.</p>
     <!-- #endregion Lesson 08 - If and Else -->
 
     <h2>Lesson 09 - Functions</h2>
     <!-- #region Lesson 09 - Functions -->
+        <p>Functions are reusable blocks of code that perform a specific task. They can be defined using function declarations or function expressions.</p>
+        <p>Example of a function declaration:</p>
+        <pre>function greet(name) {
+    return `Hello, ${name}!`;
+}</pre>
+        <p>Example of a function expression:</p>
+        <pre>const greet = function(name) {
+    return `Hello, ${name}!`;
+};</pre>
+        <p>Example of an arrow function:</p>
+        <pre>const greet = (name) => {
+    return `Hello, ${name}!`;
+};</pre>
+        <p>Or even more concise:</p>
+        <pre>const greet = name => `Hello, ${name}!`;</pre> 
+    <strong>OBS:</strong> Arrow functions have a shorter syntax and do not have their own <code>this</code> context, 
+            making them useful for certain situations, such as when working with callbacks or methods that require a 
+            specific <code>this</code> value.</p>
+        <p><span>Wrong!</span></p>
+        <pre>const person = {
+    name: "Harry",
+    greet: () => `Hello, ${this.name}`
+};</pre>
+        <p><strong>Right!</strong></p>
+        <pre>const person = {
+    name: "Harry",
+    greet() {
+        return `Hello, ${this.name}`;
+    }
+};</pre>
     <!-- #endregion Lesson 09 - Functions -->
+    
+
+
+    <h2>Lesson 10 - Certification</h2>
+    <!-- #region Certification -->
+     <!-- #endregion Certification -->
+     <div class="certificate">
+        <h2>Certificate</h2>
+        <img src="../_assets/Certificado - JavaScript.png" alt="JavaScript Course Certificate">
+    </div> 
+    
+    
+    
     <br>
     <button onclick="history.back()">Go Back</button>
 
