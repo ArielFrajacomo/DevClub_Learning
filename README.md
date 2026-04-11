@@ -97,8 +97,11 @@ Remote Repositories, README.md
 > All basic stuff, I had to put a Bitshift Extra Lesson at the end, to spicy things up and remember my origins `(Low code + Memory Management and Performance Lover)`, It seems to be a forgetten skill lately.  
 
 Objects, Null & Undefined, Array, If & Else, Functions
-> 
+> nothing really new here, only the short version of the arrow function  
 
+### DOM Elements
+byID, byClassName, ByTagName, by name, tagSelector/all
+> how to get DOM elements from the HTML to the JS
 
 
 (On Going...)

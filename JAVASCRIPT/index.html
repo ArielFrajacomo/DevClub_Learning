@@ -10,6 +10,10 @@
 </head>
 <body>
     <h1>DevClub - JavaScript Module</h1>
+    <h2>Table of contents</h2>
+
+
+
     <h2>Lesson 00 - Script Declaration</h2>
     <!-- #region Lesson 00 - Script Declaration -->
         <code>&lt;script src="scripts.js" <strong>defer</strong>&gt;&lt;/script&gt;</code>
@@ -127,14 +131,14 @@
     <!-- #region Lesson 06 - Null and Undefined -->
         <p><code>null</code> represents the intentional absence of any object value.</p>
         <p><code>undefined</code> represents the absence of a value or an uninitialized variable.</p>
-        <p><strong>OBS:</strong> Both <code>null</code> and <code>undefined</code> are falsy values, meaning they evaluate to false in a boolean context.</p>
+        <p><strong>OBS:</strong> Both <code>null</code> and <code>undefined</code> return false in a boolean context.</p>
     <!-- #endregion Lesson 06 - Null and Undefined -->
 
     <h2>Lesson 07 - Arrays</h2>
     <!-- #region Lesson 07 - Arrays -->
         <p>Arrays are ordered collections of values, which can be of any type. And the first element starts at 0.</p>
         <p>Example:</p>
-        <pre>const fruits = ["apple", "banana", "cherry"];</pre>
+        <pre>const fruits = ["apple", "banana", "cherry"];<br><br>fruits[0] → "apple"</pre>
 
     <!-- #endregion Lesson 07 - Arrays -->
 
@@ -176,10 +180,22 @@
     }
 };</pre>
     <!-- #endregion Lesson 09 - Functions -->
+    <h2>Lesson 10 - DOM Elements</h2>
+    <!-- #region Lesson 10 - DOM Elements -->
+        <p>The Document Object Model (DOM) is a programming interface for HTML and XML documents.</p>
+        <ul>How to get elements in js:
+            <li><code>document.getElementById(<span>"myId"</span>)</code>: by ID.</li>
+            <li><code>elements = document.getElementsByClassName(<span>"myClass"</span>)</code>: by class name.</li>
+            <li><code>elements = document.getElementsByTagName(<span>"HTML_TAG"</span>)</code>: by tag name.</li>
+            <li><code>elements = document.getElementsByName(<span>"name"</span>)</code>: by attribute name.</li>
+            <li><code>element = document.querySelector("<span>myId | myClass | HTML_TAG"</span>)</code>: by CSS selector.</li>
+            <li><code>elements = document.querySelectorAll("<span>myId | myClass | HTML_TAG"</span>)</code>: by CSS selector.</li>
+        </ul>
+    <!-- #endregion Lesson 10 - DOM Elements -->
     
 
 
-    <h2>Lesson 10 - Certification</h2>
+    <h2>Lesson xx - Certification</h2>
     <!-- #region Certification -->
      <!-- #endregion Certification -->
      <div class="certificate">
