@@ -47,3 +47,37 @@
     width: 200px;
     font-size: 16px;
 }
+
+
+
+.dom-exercise {
+    display: flex;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    background-color: var(--color-surface);
+
+    flex-direction: row;
+    columns: 2;
+}
+.dom-exercise-controls {
+    width: 40%;
+    padding: 10px;
+}
+.dom-exercise-controls button{
+    width: 100%;
+    margin: 5px 0;
+}
+.dom-exercise-target {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    cursor: pointer;
+    
+    width: 100px;
+    height: 100px;
+    margin: auto auto;
+}

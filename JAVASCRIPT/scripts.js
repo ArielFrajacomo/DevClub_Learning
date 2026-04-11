@@ -1,5 +1,5 @@
 
-
+// 1st exercise - Encoder/Decoder
 function getKey(str) {
     let KEY = document.querySelector('#encoder-keyword');
 
@@ -54,3 +54,26 @@ function decode(str) {
 }
 
 
+/*  2nd exercise - DOM Elements
+
+        (Math.random() * 2 ** 24) | 0
+            the operator "| 0", bitwise OR operation that effectively truncates the decimal part of a number, leaving only the integer part.
+            used as a faster alternative to Math.floor() when working with integers.
+            
+        0b = binary, base 2
+        0o = octal, base 8
+        0x = hexadecimal, base 16
+        no prefix = decimal, base 10
+
+        0xFF = 255, is the maximum value for a RGB color model.
+*/
+function changeColor() {
+    // using bit operations to improve performance and reduce code size, instead of using Math.floor(random * 256) for each color component
+    const randomColor =  (Math.random() * 2 ** 24) | 0; // (255,255,255) where 255 = 2^8 - 1, so 2^24 (24 bits) for the whole RGB spectrum
+    const redColor = randomColor & 0xFF; // Get the last 8 bits for red
+    const greenColor = (randomColor >> 8) & 0xFF; // Get the next 8 bits for green
+    const blueColor = (randomColor >> 16) & 0xFF; // Get the next 8 bits for blue
+
+    document.getElementById('dom-exercices-target')
+        .style.backgroundColor = `rgb(${redColor}, ${greenColor}, ${blueColor})`; 
+}
