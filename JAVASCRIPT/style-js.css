@@ -77,7 +77,8 @@
     background-color: var(--color-surface);
     cursor: pointer;
     
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    max-width: 60%;
+    min-height: 100px;
     margin: auto auto;
 }

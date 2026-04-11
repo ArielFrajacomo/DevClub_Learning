@@ -53,7 +53,6 @@ function decode(str) {
     }
 }
 
-
 /*  2nd exercise - DOM Elements
 
         (Math.random() * 2 ** 24) | 0
@@ -76,4 +75,41 @@ function changeColor() {
 
     document.getElementById('dom-exercices-target')
         .style.backgroundColor = `rgb(${redColor}, ${greenColor}, ${blueColor})`; 
+}
+function addParagraph(){
+    let div = document.getElementById('dom-exercices-target');
+    let p = document.createElement('p');
+    const pnumber = div.getElementsByTagName('p').length + 1;
+    p.textContent = `added paragraph ${pnumber}`;
+    div.appendChild(p);
+}
+
+function removeParagraph() {
+    let div = document.getElementById('dom-exercices-target');
+    let p = div.getElementsByTagName('p');
+    if(p.length > 0){
+        div.removeChild(p[p.length - 1]);
+    }
+}
+
+function toggleParagraphs() {
+    let div = document.getElementById('dom-exercices-target');
+    div.childNodes.forEach(node => {
+        if (node.nodeName === 'P') {
+            node.style.display = node.style.display === 'none' ? 'block' : 'none';
+        }
+    });
+
+}
+
+function changeText() {
+    let div = document.getElementById('dom-exercices-target');
+
+    if (div.childNodes.length === 0) {
+        addParagraph();
+    }
+    
+    const newtext = prompt("What the text should be?");
+
+    div.childNodes[0].textContent = newtext;
 }
